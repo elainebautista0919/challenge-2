@@ -1,7 +1,10 @@
-*{
+/* Universal Selector */
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* Element Selector */
 nav {
     width: 100%;
     display: block;
@@ -54,8 +57,9 @@ select {
     background-size: contain;
   }
 
+  /* Class Selector */
 .first {
-    background-color: #dfe6e9;
+    background-color: #ddeffb;
 }
 
 .container {
@@ -169,14 +173,13 @@ select {
 .contact {
     min-height: 400px;
     text-align: center;
-    padding: 1em;
+    padding: 3em;
 }
 
 .contact-info {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background-color:rgba(0,0,255,0.8);
-    padding: 3em;
+    padding: 1em;
     border-radius: 15px;
     text-decoration: none;
     list-style: none;
@@ -187,4 +190,3 @@ select {
       flex-direction: column;
     }
   }
-
