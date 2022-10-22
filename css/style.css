@@ -60,6 +60,64 @@ select {
   /* Class Selector */
 .first {
     background-color: #ddeffb;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: end;
+    align-items: center;
+    margin: 0px 1em;
+}
+
+nav li {
+    list-style: none;
+    
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: #222f3e;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    padding: 25px 20px;
+}
+nav a:hover {
+    color: #eb4d4b;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+footer {
+    font-size:10px;
+    text-align: center;
+    margin: 20px;
+    color: lightgray;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+
+  /* Class Selector */
+.first {
+    background-color: #dfe6e9;
 }
 
 .container {
@@ -110,7 +168,7 @@ select {
     min-height: 400px;
     text-align: center;
     padding: 1em;
-    background-image: url("../images/classroom.jpg");
+    background-image: url("../assets/images/classroom.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -179,8 +237,6 @@ select {
 .contact-info {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding: 1em;
-    border-radius: 15px;
     text-decoration: none;
     list-style: none;
 }
@@ -190,3 +246,4 @@ select {
       flex-direction: column;
     }
   }
+
